@@ -1,0 +1,9 @@
+# folders
+.env/
+venv/
+__pycache__/
+
+# files
+*.pyc
+Test JSON.json
+FTL's New Backend Assignment 2021.pdf

@@ -1,0 +1,1 @@
+web: gunicorn ftlabs.wsgi:application --log-file -
