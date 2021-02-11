@@ -4,6 +4,12 @@ import pytz
 import random
 
 class Command(BaseCommand):
+    '''
+    Generate and populate the User Model with random data of Users and their timezones
+
+    To populate the database, run from the root of the project 
+    $ python manage.py populate_user_db
+    '''
 
     def _create_tags(self):
         for name in ['shelly', 'sharon', 'sherman', 'shezwan', 'shakeel', 'sharmila']:

@@ -7,6 +7,10 @@ import datetime
 
 class ActivityTestCase(TestCase):
 
+    '''
+    To assertion test the correctness of the ActivityPeriod Model
+    '''
+
     def setUp(self):
         activityList = []
         userList = []

@@ -6,6 +6,13 @@ import random
 import datetime
 
 class Command(BaseCommand):
+    '''
+    Generate and populate the ActivityPeriod Model with random data corresponding to every User
+    model data
+
+    To populate the database run from the root of the project 
+    $ python manage.py populate_activity_db
+    '''
 
     def _create_tags(self):
         userList = User.objects.all()

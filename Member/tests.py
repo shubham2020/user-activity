@@ -4,6 +4,10 @@ import pytz, random
 
 class UserTestCase(TestCase):
 
+    '''
+    To assertion test the correctness of the User Model
+    '''
+
     def setUp(self):
         objectList = []
         for name in ['shelly', 'sharon', 'sherman', 'shezwan', 'shakeel', 'sharmila']:

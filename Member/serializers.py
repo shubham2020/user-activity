@@ -4,6 +4,10 @@ from Activity.serializers import ActivityPeriodSerializer
 
 
 class UserSerializer(serializers.ModelSerializer):
+    '''
+    To serialize the model data with minor modifications as per JSON requirements
+    '''
+
     id = serializers.CharField(source='real_world_id')
     real_name = serializers.CharField(source='username')
     tz = serializers.CharField(source='timeZone')
